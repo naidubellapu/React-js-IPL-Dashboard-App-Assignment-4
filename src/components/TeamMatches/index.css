@@ -1,0 +1,73 @@
+/* Write your CSS here */
+
+.team-match-route-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.kkr {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+}
+
+.csk {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+
+.kxp {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+
+.srh {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+
+.rr {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+
+.mi {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+
+.dc {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+}
+
+.rcb {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+}
+
+.team-match-container {
+  width: 90%;
+  max-width: 1100px;
+  margin-top: 96px;
+}
+
+.team-banner {
+  width: 100%;
+  border-radius: 5px;
+}
+.match-card-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .team-match-container {
+    width: 90%;
+    max-width: 1100px;
+    margin-top: 40px;
+  }
+}

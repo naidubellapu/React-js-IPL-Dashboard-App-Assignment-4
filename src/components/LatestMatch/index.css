@@ -1,0 +1,148 @@
+/* Write your CSS here */
+
+.match-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.latest-match-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #0f172a;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.latest-match-details-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding-left: 28px;
+}
+
+.match-details-1 {
+  width: 40%;
+  margin-top: 25px;
+  align-self: flex-start;
+}
+
+.latest-match-team-name {
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: 0px;
+  margin-right: auto;
+  text-align: left;
+}
+
+.match-date {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Bree Serif';
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.venue {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  margin-bottom: 0px;
+}
+
+.result {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+
+.latest-match-team-logo {
+  max-width: 200px;
+  max-height: 200px;
+  margin-right: 25px;
+}
+
+.match-details-2 {
+  text-align: right;
+  padding-right: 20px;
+  width: 33%;
+}
+
+.latest-match-details-label {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Bree Serif';
+}
+
+.latest-match-details-value {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .latest-match-details-logo-container {
+    padding: 15px;
+  }
+  .match-heading {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .latest-match-card {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .separator {
+    border: 1px solid white;
+    width: 100%;
+  }
+  .match-details-2 {
+    text-align: left;
+    align-self: flex-start;
+    margin-left: 35px;
+    padding-right: 20px;
+  }
+  .latest-match-team-name {
+    font-size: 25px;
+  }
+  .match-date {
+    font-size: 18px;
+  }
+  .latest-match-team-logo {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 0px;
+  }
+  .venue {
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .result {
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .latest-match-details-label {
+    font-size: 13px;
+  }
+  .latest-match-details-value {
+    font-size: 10px;
+  }
+  .match-details-1 {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
